@@ -1,0 +1,511 @@
+@media (max-width: 1400px) {
+    .md-content {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .header-menu {
+        width: 55%;
+    }
+    .header-button {
+        width: 15%;
+        text-align: right;
+    }
+    .service-section .s-item {
+        width: 25%;
+    }
+    .pricing-section .p-table {
+        width: 30%;
+
+    }
+    .testimonial-items .t-item {
+        width: 28%;
+    }
+
+
+}
+@media (max-width: 1400px) and ( min-width: 993px) {
+    .team-section .t-member {
+        max-width: 22%;
+    }
+}
+
+/* this is for main css */
+.header-menu-check {
+    display: none;
+}
+.header-menu span {
+    display: none;
+
+}
+.max-width{
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 1250px) {
+    .about-section h1 {
+        font-size: 46px;
+    }
+    .service-section .s-item {
+        width: 24%;
+    }
+    .service-section .s-item h2 {
+        font-size: 23px;
+    }
+    .service-section .s-item p {
+        font-size: 17px;
+        margin-top: 16px;
+        line-height: 28px;
+
+    }
+    .service-section .s-item span {
+        height: 159px;
+    }
+    .p-table .p-header p {
+        font-size: 18px;
+        line-height: 33px;
+        margin-bottom: -9px;
+    }
+    .p-table .p-content ul li span {
+        font-size: 25px;
+
+    }
+    .p-table .p-content ul li {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .p-content-btn a {
+        font-size: 17px;
+        padding: 13px 12px;
+    }
+    .blog-contents .blog-box {
+        height: auto;
+    }
+
+
+    .blog-content img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .blog-content .blog-text {
+        padding: 26px 42px;
+    }
+    .testimonial-section .t-title h2 {
+        font-size: 33px;
+    }
+    .testimonial-items .t-content p {
+        font-size: 19px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 1050px) {
+    .video-section .vs-text h1 {
+        font-size: 37px;
+
+    }
+    .header-section {
+        position: relative;
+    }
+    .service-section .s-item {
+        width: 40%;
+    }
+    .service-section .s-item span {
+        height: 181px;
+    }
+    .pricing-section .p-header-first h1 {
+        font-size: 46px;
+    }
+    .pricing-section .p-header-first p {
+        font-size: 18px;
+    }
+    .team-section .team-header h1 {
+        font-size: 39px;
+    }
+    .blog-content p {
+        margin-bottom: 35px;
+    }
+    .testimonial-items .t-content {
+        padding: 50px 51px;
+    }
+    .testimonial-items .t-bio {
+        margin-left: 94px;
+    }
+    .testimonial-items .t-bio h4 {
+        font-size: 17px;
+    }
+    .testimonial-items .t-bio span {
+        font-size: 14px;
+    }
+    .team-section .t-member {
+        margin: 0 12px;
+    }
+}
+@media (max-width: 992px) {
+    .header-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    .header-logo img {
+        float: inherit;
+    }
+    .header-logo span {
+        top: -13px;
+        position: relative;
+    }
+    .header-menu {
+        width: 100%;
+        text-align: left;
+    }
+
+    .header-menu ul {
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+    }
+    .header-menu ul li {
+        display: block;
+    }
+    .header-menu ul li .ul2 {
+        position: absolute;
+        top: 24%;
+        left: 128px;
+        width: 250px;
+    }
+    .header-menu ul li ul {
+        top: -350%;
+        left: 129px;
+    }
+    .header-menu ul li ul li a {
+        font-size: 14px;
+        border-bottom: none;
+        line-height: 29px;
+    }
+
+        /* Mobile menu */
+    .header-menu .header-menu-check:checked ~ ul {
+        visibility: visible;
+        opacity: 1;
+        height: 100%;
+    }
+    .header-menu-check {
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
+        opacity: 0;
+        position: absolute;
+        display: block;
+    }
+    .header-menu span, {
+        position: absolute;
+        top: 72px;
+        left: 21px;
+        pointer-events: none;
+    }
+    /* .header-menu-checkTimes i {
+        display: block;
+        font-size: 32px;
+        position: relative;
+        top: -35px;
+        left: 2px;
+        opacity: 0;
+    } */
+
+
+
+    .header-menu span {
+        display: block;
+        font-size: 30px;
+        color: #6278df;
+        cursor: pointer;
+    }
+    .header-button {
+        width: 200px;
+        position: absolute;
+        right: 22px;
+        top: 64px;
+    }
+
+    .banner-section {
+        padding: 84px 0;
+
+    }
+    .video-section .vs-video {
+        width: 100%;
+        margin-bottom: 47px;
+    }
+    .video-section .vs-text {
+        width: 100%;
+    }
+    .about-section h1 {
+        font-size: 37px;
+    }
+    .about-section h4 {
+        font-size: 22px;
+    }
+    .service-section .s-item {
+        width: 38%;
+    }
+    .pricing-section .md-content {
+        padding: 0 166px;
+  
+    }
+    .pricing-section .p-table {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .p-content-btn a {
+        font-size: 22px;
+        padding: 21px 22px;
+ 
+    }
+    .team-section .team-header h1 {
+        font-size: 31px;
+    }
+    
+    .team-section .t-member {
+        width: 46%;
+        margin-bottom: 20px;
+    }
+    .team-section .t-member img {
+        width: 100%;
+        height: auto;
+    }
+    .team-section .member-bio h4 {
+        font-size: 18px;
+    }
+    .team-section .member-bio span {
+        font-size: 16px;
+    }
+
+
+    .blog-contents .blog-box {
+        height: auto;
+    }
+    .blog-content .blog-text h5 {
+        margin-bottom: 23px;
+    }
+    .blog-content .blog-text h6 {
+        font-size: 22px;
+    }
+    .blog-content .blog-text h5 {
+        margin-bottom: 35px;
+    }
+    .blog-content .blog-text h6 {
+        font-size: 19px;
+    }
+    
+    .testimonial-items .t-content p::before {
+        font-size: 65px;
+
+    }
+    .testimonial-items .t-user-img {
+        padding: 0 36px;
+    }
+    .testimonial-items .t-item {
+        width: 30%;
+        margin-right: 38px;
+    }
+    
+}
+@media (max-width: 830px) {
+    .pricing-section .md-content {
+        padding: 0 102px;
+    }
+    .service-section .s-item {
+        width: 37%;
+    }
+    .newsletter h1 {
+        font-size: 36px;
+    }
+    .default-input {
+        padding: 15px 31px;
+        font-size: 16px;
+    }
+    .submit-button {
+        padding: 15px 31px;
+        font-size: 16px;
+    }
+    .testimonial-items .t-item {
+        width: 29%;
+        margin-right: 46px;
+    }
+}
+@media (max-width: 811px) {
+    .blog-content p {
+        margin-bottom: 35px;
+        font-size: 19px;
+    }
+
+}
+@media (max-width: 791px) {
+    .team-section .t-member {
+        width: 45%;
+    }
+}
+@media (max-width: 773px) {
+    .blog-content h1 {
+        margin-bottom: 138px;
+    }
+}
+@media (max-width: 768px) {
+    .pricing-section .md-content {
+        padding: 0 49px;
+    }
+    .header-btn {
+        font-size: 12px;
+        padding: 10px 22px;
+    }
+    .banner-section p {
+        font-size: 25px;
+    }
+    .banner-section h1 {
+        font-size: 33px;
+        margin: 42px;
+    }
+    .banner-btn span {
+        font-size: 17px;
+        padding: 13px 14px;
+    }
+
+    .banner-section {
+        top: 0;
+    }
+    .video-section .vs-text h1 {
+        font-size: 33px;
+    }
+    .about-section h1 {
+        font-size: 30px;
+    }
+    .about-section h4 {
+        font-size: 20px;
+    }
+    .service-section .s-item {
+        width: 85%;
+    }
+    .service-section .s-item h2 {
+        font-size: 28px;
+    }
+    .pricing-section .md-content {
+        padding: 0 97px;
+    }
+    .pricing-section .p-header-first h1 {
+        font-size: 29px;
+    }
+    .testimonial-section .t-title h2 {
+        font-size: 25px;
+    }
+    .testimonial-section .t-title h4 {
+        font-size: 20px;
+    }
+    .testimonial-items .t-item {
+        width: 100%;
+        margin-bottom: 33px;
+    }
+    .testimonial-items .t-content::after {
+        left: -305px;
+
+    }
+    .contact-left-map {
+        width: 100%;
+    }
+    .contact-right {
+        width: 100%;
+        margin-right: 0;
+    }
+    .pricing-section .md-content {
+        padding: 0 71px;
+    }
+}
+@media (max-width: 668px) {
+    .blog-content {
+        width: 100%;
+    }
+    .blog-content h1 {
+        margin-bottom: 39px;
+        text-align: center;
+    }
+    .blog-contents .blog-box {
+        margin-bottom: 43px;
+    }
+    .pricing-section .md-content {
+        padding: 0 46px;
+    }
+
+}
+@media (max-width: 640px) {
+    .team-section .t-member {
+        width: 43%;
+    }
+    .team-section .member-bio h4 {
+        font-size: 19px;
+    }
+}
+@media (max-width: 500px) {
+    .pricing-section .md-content {
+        padding: 0 15px;
+    }
+    .service-section .s-item {
+        width: 78%;
+    }
+    .team-section .t-member {
+        width: 96%;
+    }
+    .default-input {
+
+        width: 93%;
+        margin-bottom: 35px;
+    }
+    .testimonial-items .t-content::after {
+        left: -145px;
+    }
+    .contact-footer span {
+        font-size: 16px;
+
+    }
+}
+@media (max-width: 420px) {
+    .video-section .vs-text h1 {
+        font-size: 26px;
+    }
+    .about-section h1 {
+        font-size: 19px;
+    }
+    .about-section h4 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 420px) {
+    /* .header-menu ul li a {
+        font-size: 13px;
+        padding: 0px 3px;
+
+    } */
+    .banner-section {
+        padding: 44px 0;
+    }
+    .banner-btn span {
+        font-size: 16px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .banner-section p {
+        font-size: 17px;
+    }
+    .banner-section h1 {
+        font-size: 24px;
+        margin: 30px;
+    }
+    .p-content-btn a {
+        font-size: 17px;
+        padding: 13px 12px;
+    }
+    .newsletter h1 {
+        font-size: 30px;
+    }
+    .blog-content h1 {
+        font-size: 31px;
+    }
+
+}
+
